@@ -1,0 +1,177 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d" />
+      <stop offset="50%" stop-color="#0d1b2a" />
+      <stop offset="100%" stop-color="#1b263b" />
+    </linearGradient>
+
+    <!-- Vibrant Accent Gradient -->
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3a86ff" />
+      <stop offset="50%" stop-color="#8338ec" />
+      <stop offset="100%" stop-color="#ff006e" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <filter id="badgeGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <style>
+    .title-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 800;
+      font-size: 42px;
+      fill: #ffffff;
+      letter-spacing: -0.5px;
+    }
+    .subtitle-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 400;
+      font-size: 17px;
+      fill: #94a3b8;
+    }
+    .badge-text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      font-weight: 600;
+      font-size: 12px;
+      fill: #e2e8f0;
+    }
+    .pulse-circle {
+      animation: pulse 3s infinite ease-in-out;
+    }
+    .wave-bar {
+      animation: jump 1.8s infinite ease-in-out alternate;
+    }
+    .orbit-particle {
+      animation: float 6s infinite ease-in-out;
+    }
+    @keyframes pulse {
+      0% { r: 5px; opacity: 0.4; }
+      50% { r: 9px; opacity: 1; }
+      100% { r: 5px; opacity: 0.4; }
+    }
+    @keyframes jump {
+      0% { height: 16px; y: 260px; }
+      100% { height: 55px; y: 221px; }
+    }
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-12px); }
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Subtle grid pattern overlay for modern developer aesthetic -->
+  <g opacity="0.07" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="60" x2="1200" y2="60" />
+    <line x1="0" y1="120" x2="1200" y2="120" />
+    <line x1="0" y1="180" x2="1200" y2="180" />
+    <line x1="0" y1="240" x2="1200" y2="240" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    <line x1="200" y1="0" x2="200" y2="360" />
+    <line x1="400" y1="0" x2="400" y2="360" />
+    <line x1="600" y1="0" x2="600" y2="360" />
+    <line x1="800" y1="0" x2="800" y2="360" />
+    <line x1="1000" y1="0" x2="1000" y2="360" />
+  </g>
+
+  <!-- Ambient glowing background blobs in deep background -->
+  <circle cx="1020" cy="90" r="130" fill="#8338ec" opacity="0.25" filter="url(#glow)" />
+  <circle cx="180" cy="270" r="110" fill="#3a86ff" opacity="0.2" filter="url(#glow)" />
+  <circle cx="950" cy="260" r="100" fill="#ff006e" opacity="0.18" filter="url(#glow)" />
+
+  <!-- Dynamic animated audio / video equalizer bars (background/bottom right) -->
+  <g opacity="0.8">
+    <rect class="wave-bar" x="970" y="240" width="7" height="36" rx="3.5" fill="#3a86ff" style="animation-delay: 0.1s;" />
+    <rect class="wave-bar" x="984" y="230" width="7" height="46" rx="3.5" fill="#4361ee" style="animation-delay: 0.35s;" />
+    <rect class="wave-bar" x="998" y="222" width="7" height="54" rx="3.5" fill="#7209b7" style="animation-delay: 0.2s;" />
+    <rect class="wave-bar" x="1012" y="215" width="7" height="61" rx="3.5" fill="#8338ec" style="animation-delay: 0.6s;" />
+    <rect class="wave-bar" x="1026" y="225" width="7" height="51" rx="3.5" fill="#b5179e" style="animation-delay: 0.15s;" />
+    <rect class="wave-bar" x="1040" y="235" width="7" height="41" rx="3.5" fill="#f72585" style="animation-delay: 0.45s;" />
+    <rect class="wave-bar" x="1054" y="220" width="7" height="56" rx="3.5" fill="#ff006e" style="animation-delay: 0.25s;" />
+    <rect class="wave-bar" x="1068" y="242" width="7" height="34" rx="3.5" fill="#3a86ff" style="animation-delay: 0.5s;" />
+  </g>
+
+  <!-- Dynamic floating pill tags (right side) -->
+  <g class="orbit-particle">
+    <!-- WebRTC / HLS Pill -->
+    <rect x="860" y="70" width="125" height="32" rx="16" fill="#1e293b" stroke="#3a86ff" stroke-width="1.5" opacity="0.9" />
+    <circle cx="878" cy="86" r="5" fill="#3a86ff" class="pulse-circle" />
+    <text x="893" y="91" class="badge-text">WebRTC • HLS</text>
+  </g>
+
+  <g class="orbit-particle" style="animation-delay: -2s;">
+    <!-- Live & VOD Pill -->
+    <rect x="1010" y="115" width="120" height="32" rx="16" fill="#1e293b" stroke="#8338ec" stroke-width="1.5" opacity="0.9" />
+    <circle cx="1028" cy="131" r="5" fill="#8338ec" class="pulse-circle" style="animation-delay: 0.5s;" />
+    <text x="1043" y="136" class="badge-text">Live &amp; VOD</text>
+  </g>
+
+  <g class="orbit-particle" style="animation-delay: -4s;">
+    <!-- RTMP / SRT Pill -->
+    <rect x="880" y="155" width="115" height="32" rx="16" fill="#1e293b" stroke="#ff006e" stroke-width="1.5" opacity="0.9" />
+    <circle cx="898" cy="171" r="5" fill="#ff006e" class="pulse-circle" style="animation-delay: 1s;" />
+    <text x="913" y="176" class="badge-text">RTMP • SRT</text>
+  </g>
+
+  <!-- Floating Video Stream Player Graphic (Right foreground) -->
+  <g transform="translate(930, 20) scale(0.95)" opacity="0.35">
+    <rect x="0" y="0" width="220" height="135" rx="12" fill="#0f172a" stroke="#334155" stroke-width="2" />
+    <polygon points="100,55 100,85 125,70" fill="#ffffff" opacity="0.8" />
+  </g>
+
+  <!-- FOREGROUND CONTENT: Header, Title, Subtitle, Badges (Crisp, High Contrast, Guaranteed Foreground) -->
+  
+  <!-- Category Tag -->
+  <g transform="translate(80, 58)">
+    <rect width="180" height="28" rx="14" fill="#3a86ff" fill-opacity="0.15" stroke="#3a86ff" stroke-opacity="0.4" stroke-width="1" />
+    <circle cx="16" cy="14" r="4" fill="#3a86ff" />
+    <text x="28" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="11.5" fill="#60a5fa" letter-spacing="1">CURATED DIRECTORY</text>
+  </g>
+
+  <!-- Main Title -->
+  <text x="80" y="132" class="title-text">
+    Awesome Video Hosting &amp;
+  </text>
+  <text x="80" y="180" class="title-text">
+    <tspan fill="url(#accentGrad)">Streaming Platforms</tspan> 🎥 ⚡
+  </text>
+
+  <!-- Subtitle -->
+  <text x="80" y="222" class="subtitle-text">
+    A comprehensive guide to enterprise SaaS &amp; top-tier open-source video infrastructure.
+  </text>
+  <text x="80" y="248" class="subtitle-text">
+    Compare market valuations, starting pricing tiers, free trial limits, and GitHub stars.
+  </text>
+
+  <!-- Quick Spec Pills Footer (Left) -->
+  <g transform="translate(80, 280)">
+    <!-- Pill 1 -->
+    <rect x="0" y="0" width="138" height="30" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <text x="14" y="20" class="badge-text" fill="#93c5fd">🏢 Enterprise SaaS</text>
+
+    <!-- Pill 2 -->
+    <rect x="150" y="0" width="146" height="30" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <text x="14" y="20" class="badge-text" fill="#c084fc">💻 Self-Hosted / FOSS</text>
+
+    <!-- Pill 3 -->
+    <rect x="308" y="0" width="144" height="30" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1" />
+    <text x="14" y="20" class="badge-text" fill="#f472b6">📊 Pricing &amp; Metrics</text>
+  </g>
+
+  <!-- Bottom Accent Stripe -->
+  <rect x="0" y="356" width="1200" height="4" fill="url(#accentGrad)" />
+</svg>
