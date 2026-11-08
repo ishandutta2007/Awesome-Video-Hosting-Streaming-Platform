@@ -68,9 +68,9 @@ Commercial, cloud-hosted enterprise Video Hosting and Live Streaming platforms s
 
 ## 💻 Open-Source Software & Self-Hosted Solutions 🚀
 
-Curated self-hosted video hosting servers, media proxies, and streaming platforms. Sorted in descending order by **GitHub Star Count ⭐**.
+Curated self-hosted video hosting servers, media proxies, and streaming platforms. Sorted in descending order by **GitHub Stars_Count ⭐**.
 
-### 1. [SRS (Simple Realtime Server)](https://github.com/ossrs/srs) [![GitHub stars](https://img.shields.io/github/stars/ossrs/srs?style=social&color=white)](https://github.com/ossrs/srs/stargazers)
+### 1. [SRS (Simple Realtime Server)](https://github.com/ossrs/srs) [![GitHub_Stars](https://img.shields.io/github/stars/ossrs/srs?style=social&color=white)](https://github.com/ossrs/srs/stargazers)
 - **Tech Stack:** ⚙️ C++ / Go / Python / Docker
 - **License:** 📜 MIT License
 - **Protocols Supported:** 📡 RTMP, WebRTC, HLS, HTTP-FLV, SRT, MPEG-DASH, GB28181
@@ -80,7 +80,7 @@ Curated self-hosted video hosting servers, media proxies, and streaming platform
 
 ---
 
-### 2. [LiveKit](https://github.com/livekit/livekit) [![GitHub stars](https://img.shields.io/github/stars/livekit/livekit?style=social&color=white)](https://github.com/livekit/livekit/stargazers)
+### 2. [LiveKit](https://github.com/livekit/livekit) [![GitHub_Stars](https://img.shields.io/github/stars/livekit/livekit?style=social&color=white)](https://github.com/livekit/livekit/stargazers)
 - **Tech Stack:** ⚙️ Go / WebRTC / TypeScript / Rust
 - **License:** 📜 Apache-2.0 License
 - **Protocols Supported:** 📡 WebRTC, WHIP/WHEP, SIP, RTMP Ingest/Egress
@@ -90,7 +90,7 @@ Curated self-hosted video hosting servers, media proxies, and streaming platform
 
 ---
 
-### 3. [MediaMTX](https://github.com/bluenviron/mediamtx) [![GitHub stars](https://img.shields.io/github/stars/bluenviron/mediamtx?style=social&color=white)](https://github.com/bluenviron/mediamtx/stargazers)
+### 3. [MediaMTX](https://github.com/bluenviron/mediamtx) [![GitHub_Stars](https://img.shields.io/github/stars/bluenviron/mediamtx?style=social&color=white)](https://github.com/bluenviron/mediamtx/stargazers)
 - **Tech Stack:** ⚙️ Go (Zero external dependencies)
 - **License:** 📜 MIT License
 - **Protocols Supported:** 📡 SRT, WebRTC, RTSP, RTMP, LL-HLS, HLS, MPEG-TS, RTP, Media-over-QUIC
@@ -100,7 +100,7 @@ Curated self-hosted video hosting servers, media proxies, and streaming platform
 
 ---
 
-### 4. [PeerTube](https://github.com/Chocobozzz/PeerTube) [![GitHub stars](https://img.shields.io/github/stars/Chocobozzz/PeerTube?style=social&color=white)](https://github.com/Chocobozzz/PeerTube/stargazers)
+### 4. [PeerTube](https://github.com/Chocobozzz/PeerTube) [![GitHub_Stars](https://img.shields.io/github/stars/Chocobozzz/PeerTube?style=social&color=white)](https://github.com/Chocobozzz/PeerTube/stargazers)
 - **Tech Stack:** ⚙️ TypeScript / Node.js / Angular / PostgreSQL / FFmpeg
 - **License:** 📜 AGPL-3.0 License
 - **Protocols Supported:** 📡 ActivityPub, WebTorrent, HLS, P2P WebRTC
@@ -110,7 +110,7 @@ Curated self-hosted video hosting servers, media proxies, and streaming platform
 
 ---
 
-### 5. [NGINX RTMP Module](https://github.com/arut/nginx-rtmp-module) [![GitHub stars](https://img.shields.io/github/stars/arut/nginx-rtmp-module?style=social&color=white)](https://github.com/arut/nginx-rtmp-module/stargazers)
+### 5. [NGINX RTMP Module](https://github.com/arut/nginx-rtmp-module) [![GitHub_Stars](https://img.shields.io/github/stars/arut/nginx-rtmp-module?style=social&color=white)](https://github.com/arut/nginx-rtmp-module/stargazers)
 - **Tech Stack:** ⚙️ C / Nginx
 - **License:** 📜 BSD 2-Clause License
 - **Protocols Supported:** 📡 RTMP, HLS, MPEG-DASH
@@ -120,7 +120,7 @@ Curated self-hosted video hosting servers, media proxies, and streaming platform
 
 ---
 
-### 6. [Owncast](https://github.com/owncast/owncast) [![GitHub stars](https://img.shields.io/github/stars/owncast/owncast?style=social&color=white)](https://github.com/owncast/owncast/stargazers)
+### 6. [Owncast](https://github.com/owncast/owncast) [![GitHub_Stars](https://img.shields.io/github/stars/owncast/owncast?style=social&color=white)](https://github.com/owncast/owncast/stargazers)
 - **Tech Stack:** ⚙️ Go / Preact / Tailwind CSS
 - **License:** 📜 MIT License
 - **Protocols Supported:** 📡 RTMP Ingest, HLS Delivery, ActivityPub (Fediverse)
@@ -130,7 +130,7 @@ Curated self-hosted video hosting servers, media proxies, and streaming platform
 
 ---
 
-### 7. [MediaCMS](https://github.com/mediacms-io/mediacms) [![GitHub stars](https://img.shields.io/github/stars/mediacms-io/mediacms?style=social&color=white)](https://github.com/mediacms-io/mediacms/stargazers)
+### 7. [MediaCMS](https://github.com/mediacms-io/mediacms) [![GitHub_Stars](https://img.shields.io/github/stars/mediacms-io/mediacms?style=social&color=white)](https://github.com/mediacms-io/mediacms/stargazers)
 - **Tech Stack:** ⚙️ Python / Django / Celery / Vue.js / FFmpeg
 - **License:** 📜 AGPL-3.0 License
 - **Protocols Supported:** 📡 HLS Adaptive Streaming, MP4 Progressive Download
@@ -140,7 +140,7 @@ Curated self-hosted video hosting servers, media proxies, and streaming platform
 
 ---
 
-### 8. [Ant Media Server](https://github.com/ant-media/Ant-Media-Server) [![GitHub stars](https://img.shields.io/github/stars/ant-media/Ant-Media-Server?style=social&color=white)](https://github.com/ant-media/Ant-Media-Server/stargazers)
+### 8. [Ant Media Server](https://github.com/ant-media/Ant-Media-Server) [![GitHub_Stars](https://img.shields.io/github/stars/ant-media/Ant-Media-Server?style=social&color=white)](https://github.com/ant-media/Ant-Media-Server/stargazers)
 - **Tech Stack:** ⚙️ Java / WebRTC / C++
 - **License:** 📜 Apache-2.0 License (Community Edition)
 - **Protocols Supported:** 📡 WebRTC (~0.5s ultra-low latency), CMAF, HLS, RTMP, RTSP, SRT
@@ -150,7 +150,7 @@ Curated self-hosted video hosting servers, media proxies, and streaming platform
 
 ---
 
-### 9. [AVideo](https://github.com/WWBN/AVideo) [![GitHub stars](https://img.shields.io/github/stars/WWBN/AVideo?style=social&color=white)](https://github.com/WWBN/AVideo/stargazers)
+### 9. [AVideo](https://github.com/WWBN/AVideo) [![GitHub_Stars](https://img.shields.io/github/stars/WWBN/AVideo?style=social&color=white)](https://github.com/WWBN/AVideo/stargazers)
 - **Tech Stack:** ⚙️ PHP / MySQL / Nginx-RTMP / FFmpeg
 - **License:** 📜 GPL-3.0 License
 - **Protocols Supported:** 📡 RTMP, HLS, VOD MP4
@@ -160,7 +160,7 @@ Curated self-hosted video hosting servers, media proxies, and streaming platform
 
 ---
 
-### 10. [Hovod](https://github.com/Synapsr/Hovod) [![GitHub stars](https://img.shields.io/github/stars/Synapsr/Hovod?style=social&color=white)](https://github.com/Synapsr/Hovod/stargazers)
+### 10. [Hovod](https://github.com/Synapsr/Hovod) [![GitHub_Stars](https://img.shields.io/github/stars/Synapsr/Hovod?style=social&color=white)](https://github.com/Synapsr/Hovod/stargazers)
 - **Tech Stack:** ⚙️ TypeScript / Node.js / FFmpeg / Docker
 - **License:** 📜 MIT License
 - **Protocols Supported:** 📡 Multi-quality HLS (360p to 4K), S3-compatible storage
@@ -220,7 +220,7 @@ Contributions and additions are enthusiastically welcomed! If you operate or mai
 
 1. 🍴 **Fork** this repository.
 2. 🌿 Create your feature branch (`git checkout -b feature/new-video-platform`).
-3. 📝 Add your project under the appropriate section with its name, star count badge, license, stack, and use case.
+3. 📝 Add your project under the appropriate section with its name, Stars_Count badge, license, stack, and use case.
 4. 🚀 Commit your changes (`git commit -m "Add NewVideoPlatform to open-source directory"`).
 5. 📤 Push to the branch (`git push origin feature/new-video-platform`).
 6. 📬 Open a **Pull Request**.
