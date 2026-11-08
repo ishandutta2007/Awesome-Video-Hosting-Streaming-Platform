@@ -5,10 +5,13 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Video-Hosting-Streaming-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Video-Hosting-Streaming-Platform?style=social&color=white" alt="Repo Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Video-Hosting-Streaming-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Video-Hosting-Streaming-Platform?style=social&color=white" alt="Repo Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Video-Hosting-Streaming-Platform/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-CC0--1.0-blue.svg?style=flat-square" alt="License: CC0-1.0" /></a>
-  <a href="https://github.com/sindresorhus/awesome"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
 </p>
 
 > 🎬 A curated list of top-tier **Video Hosting**, **Live Video Streaming Platforms**, and **Video Content Management Systems (CMS)** — featuring detailed enterprise SaaS solutions (with exact pricing tiers, free tier limits, and valuations) alongside prominent open-source streaming servers and webcasters.  
@@ -31,6 +34,8 @@ Whether you are building a modern video-on-demand (VOD) portal, integrating inte
 - [🏢 SaaS / Hosted Commercial Platforms](#-saas--hosted-commercial-platforms)
 - [💻 Open-Source Software & Self-Hosted Solutions](#-open-source-software--self-hosted-solutions)
 - [📊 Feature Comparison at a Glance](#-feature-comparison-at-a-glance)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⭐ Star History](#-star-history)
 - [🤝 Contributing](#-contributing)
 - [📄 License](#-license)
 
@@ -187,6 +192,25 @@ Curated self-hosted video hosting servers, media proxies, and streaming platform
 | **Ant Media Server** | Open-Source / Dual | Java / WebRTC | ✅ (<0.5s) | ✅ | Docker / Cloud Marketplace | Ultra-low latency WebRTC streaming & auctions |
 | **AVideo** | Open-Source Portal | PHP / MySQL | ✅ (RTMP) | ✅ | Docker / LEMP Stack | Turnkey self-hosted VOD & live broadcast network |
 | **Hovod** | Open-Source API | TypeScript / Node | ❌ (VOD-first) | ✅ (360p-4K) | Single Docker container | Self-hosted Mux alternative with S3 storage |
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you so much for exploring and using this curated list! Creating and maintaining comprehensive guides like this takes continuous research, benchmarking, and dedication. 
+
+If this project has saved you time, informed your engineering decisions, or helped you architect your video streaming stack, please consider supporting the project:
+- ⭐ **Star this repository** to help others find it.
+- 🍴 **Fork and share** it with your developer and engineering community.
+- ☕ **Buy a coffee / Sponsor the author**: Support ongoing open-source curation and developer tools directly via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Your support is deeply appreciated and keeps projects like this actively maintained! 🙌
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=ishandutta2007/Awesome-Video-Hosting-Streaming-Platform&type=Date&legend=top-left)](https://star-history.com/#ishandutta2007/Awesome-Video-Hosting-Streaming-Platform&Date)
 
 ---
 
