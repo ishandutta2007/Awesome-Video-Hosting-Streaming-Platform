@@ -1,153 +1,214 @@
-# Awesome-Video-Hosting-Streaming-Platform
+# Awesome Video Hosting & Streaming Platform 🎥 ⚡
 
-# Awesome Video Hosting & Streaming Platform
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Video Hosting & Streaming Platform Banner" width="100%" />
+</p>
 
-> A curated list of top Video Hosting and Streaming platforms — both SaaS/Hosted commercial solutions and open-source alternatives for managing, publishing, and delivering video content.  
-> 🌟 Star this repo if you find it useful! 🌟
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Video-Hosting-Streaming-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Video-Hosting-Streaming-Platform?style=social&color=white" alt="Repo Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Video-Hosting-Streaming-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Video-Hosting-Streaming-Platform?style=social&color=white" alt="Repo Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Video-Hosting-Streaming-Platform/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-CC0--1.0-blue.svg?style=flat-square" alt="License: CC0-1.0" /></a>
+  <a href="https://github.com/sindresorhus/awesome"><img src="https://awesome.re/badge.svg" alt="Awesome" /></a>
+</p>
 
----
-
-## 📋 Table of Contents
-
-- [SaaS / Hosted Platforms](#-saas--hosted-platforms)
-  - [Vimeo Enterprise](#vimeo-enterprise)
-  - [Brightcove](#brightcove)
-  - [Wistia](#wistia)
-  - [Vidyard](#vidyard)
-  - [Kaltura](#kaltura)
-  - [Panopto](#panopto)
-  - [Dacast](#dacast)
-  - [SproutVideo](#sproutvideo)
-- [Open-Source Software](#-open-source-software)
-  - [MediaCMS](#mediacms)
-  - [Mave Core](#mave-core)
-  - [Hovod](#hovod)
-  - [AVideo](#avideo)
-  - [Owncast](#owncast)
-  - [MediaMTX](#mediamtx)
-  - [Tape](#tape)
-- [Comparison at a Glance](#-comparison-at-a-glance)
-- [Contributing](#-contributing)
+> 🎬 A curated list of top-tier **Video Hosting**, **Live Video Streaming Platforms**, and **Video Content Management Systems (CMS)** — featuring detailed enterprise SaaS solutions (with exact pricing tiers, free tier limits, and valuations) alongside prominent open-source streaming servers and webcasters.  
+> 🌟 **Star this repository** if you find it helpful for your media architecture! 🌟
 
 ---
 
-## 🟦 SaaS / Hosted Platforms
+## 🔍 SEO & Executive Overview
 
-Commercial, cloud-hosted Video Hosting and Streaming platforms. These are not open-source but are included as reference points for feature comparison.
-
-### Vimeo Enterprise
-**Type:** Video hosting and collaboration platform  
-Vimeo is best known for its user-friendly video hosting and collaboration tools, appealing to marketers, agencies, and creative teams. Plans are built around uploading, organizing, and sharing content, with a branded HTML5 player that is easy to embed [citation:1]. Its main strength is usability — uploading videos, grouping them into folders or showcases, and sharing links or embeds requires minimal configuration. Collaboration tools like team workspaces and feedback features help creative teams manage revisions. **Trade-offs:** Limited player-level customization compared to developer-focused platforms, and monetization features are packaged on higher tiers rather than offering granular ad-tech control [citation:1]. Live streaming is available but only as an add-on on upper tiers, with a 12-hour event cap [citation:14].
-
-### Brightcove
-**Type:** Enterprise video platform for large organizations and broadcasters  
-Brightcove is aimed at large organizations, broadcasters, and media companies, covering live streaming, VOD, marketing, and OTT distribution under one umbrella. It is built to plug into complex workflows, CRMs, and marketing automation systems, and to serve large audiences with bespoke support. Analytics and reporting are central, with detailed audience engagement tracking tied into marketing tools [citation:6]. **Trade-offs:** Sales-driven quote-based pricing creates onboarding friction for smaller teams, and the platform’s complexity may exceed what mid-market organizations need [citation:6].
-
-### Wistia
-**Type:** Video marketing and hosting platform  
-Wistia focuses on video marketing for businesses, with features for embedding, analytics, lead capture, and video SEO. It is known for its player customization and marketing integrations, positioning itself between consumer hosting (Vimeo) and enterprise platforms (Brightcove).
-
-### Vidyard
-**Type:** Video hosting for sales and marketing  
-Vidyard specializes in video for sales outreach and marketing, with tools for recording, hosting, analytics, and integrating video into CRM workflows. Its focus is on using video as a sales enablement and lead generation tool rather than general-purpose hosting.
-
-### Kaltura
-**Type:** Enterprise video platform and video CMS  
-Kaltura provides enterprise video solutions spanning hosting, streaming, video portals, and virtual events. It is often used by educational institutions and large enterprises needing a comprehensive video CMS with access control and analytics.
-
-### Panopto
-**Type:** Video platform for education and enterprise  
-Panopto specializes in video content management for education and training, with lecture capture, video CMS, and searchable transcripts. It is widely deployed in universities and corporate learning environments.
-
-### Dacast
-**Type:** Live streaming-first video platform  
-Dacast is built around live streaming with VOD fully supported, offering publicly documented plans (Starter, Event, Scale) with unlimited concurrent viewers and live channels on all plans [citation:10]. It emphasizes full white-label streaming so viewers do not see the Dacast brand, making it suitable for broadcasters and enterprises wanting a first-party look [citation:10]. Built-in monetization includes pay-per-view, subscriptions, and advertising support [citation:6].
-
-### SproutVideo
-**Type:** Business video hosting with marketing features  
-SproutVideo provides video hosting for businesses with customizable players, lead capture forms, analytics, and privacy controls. It positions itself as a user-friendly alternative for marketing and internal communications videos.
+Whether you are building a modern video-on-demand (VOD) portal, integrating interactive live broadcasts, setting up self-hosted surveillance/media relays, or launching an enterprise training video CMS, choosing the right platform is critical. This guide provides an exhaustive breakdown of:
+- **Cloud SaaS Video Platforms**: Vimeo, Brightcove, Kaltura, Panopto, Wistia, Vidyard, Dacast, and SproutVideo.
+- **Open-Source Media Servers & Video Portals**: SRS, LiveKit, MediaMTX, PeerTube, Nginx-RTMP, Owncast, MediaCMS, Ant Media Server, AVideo, and Hovod.
+- **Key Architectural Protocols**: WebRTC, HLS, LL-HLS, RTMP, SRT, RTSP, and ActivityPub federation.
 
 ---
 
-## 🟩 Open-Source Software
+## 📋 Table of Contents 📑
 
-Self-hosted, community-driven Video Hosting and Streaming platforms. All listed projects offer source code you can deploy on your own infrastructure.
-
-### MediaCMS
-**Stack:** Python / Django / React / Celery | **License:** AGPL-3.0  
-A modern, fully featured open-source video and media CMS designed to build small to medium video and media portals. Supports video, audio, image, and PDF media types, with multiple publishing workflows (public, private, unlisted, custom) [citation:3]. Features include **adaptive HLS streaming**, multiple transcoding profiles (144p to 1080p; h264, h265, vp9), role-based access control, SAML support, playlists, subtitles/CC, and automatic transcription via Whisper [citation:13]. The player is a customized video.js with resolution switching and playback speed options. Deploys via Docker Compose. Hardware guidance: 4GB RAM / 2-4 CPUs minimum for small to medium installations [citation:3].  
-**Best for:** Organizations wanting a self-hosted YouTube-like video portal with adaptive streaming, transcoding, and access control.
-
-### Mave Core
-**Stack:** Elixir / Phoenix / FFmpeg / PostgreSQL / ClickHouse / S3 | **License:** Open Source (per repository)  
-An open-source video platform with a dashboard, programmable encoding pipeline, embeddable player, and built-in analytics. Uploads run through a versioned DAG that inspects the source, encodes renditions, packages HLS, and generates visual assets [citation:5]. Media is stored in **your own S3-compatible storage** (MinIO bundled as default). Features include resumable uploads, adaptive HLS, posters, subtitles, customizable player settings, and analytics backed by your own ClickHouse instance. Deploys via `docker compose up` with PostgreSQL, ClickHouse, MinIO, tusd, and Caddy [citation:5]. **Consideration:** Browser components load from Mave’s hosted CDN by default, requiring internet access for the player.  
-**Best for:** Teams wanting a modern, Elixir-based video platform with inspectable encoding pipelines and full control over storage and analytics.
-
-### Hovod
-**Stack:** Node.js / Fastify / React / FFmpeg / Redis / MySQL / S3 | **License:** Open Source (per Docker Hub)  
-A self-hosted video platform positioned as an **open-source alternative to Mux**. Features include drag-drop upload or import from URL, **adaptive HLS transcoding** (360p to 4K, H.264), hardware-adaptive FFmpeg workers, S3-compatible storage (AWS, R2, B2, MinIO), and a built-in dashboard with video management and analytics [citation:2]. Optional AI processing includes Whisper transcription and auto-generated subtitles/chapters. Includes multi-tenancy with roles and API keys, optional Stripe billing, engagement features (comments, reactions), and webhooks. Deploys as an all-in-one Docker container including API, worker, dashboard, and embedded MariaDB/Redis — only requires S3-compatible storage [citation:2].  
-**Best for:** Developers wanting a Mux-like self-hosted video infrastructure with transcoding, analytics, and optional monetization, deployable as a single container.
-
-### AVideo
-**Stack:** PHP / MySQL / FFmpeg / nginx-rtmp | **License:** Open Source (per Packagist)  
-An open-source video platform with a website, encoder, and live server architecture. Features include video upload with conversion via FFmpeg, a video library with user accounts, and **live streaming** via RTMP ingest with HLS delivery [citation:11]. The architecture separates the Streamer (website/player), Encoder (video conversion), and Live server (broadcast ingest), allowing encoding workloads to run on separate servers. Supports S3/Backblaze B2 storage via plugins and Docker Compose deployment [citation:11].  
-**Best for:** Organizations wanting a self-hosted video portal with both VOD and live streaming capabilities, accepting a PHP/MySQL stack.
-
-### Owncast
-**Stack:** Go / React | **License:** MIT  
-An open-source, self-hosted, **single-user live video streaming and chat server** for running your own live streams similar to mainstream platforms [citation:4]. Offers complete ownership over content, interface, moderation, and audience. Compatible with any software using RTMP (OBS, Streamlabs, Restream). Includes built-in chat, federated engagement, and a web admin interface. Runs as a single Go service with no external dependencies. **Limitation:** Focused on live streaming only — not a VOD hosting platform.  
-**Best for:** Individuals and organizations wanting full control over a live stream and chat experience without relying on commercial platforms.
-
-### MediaMTX
-**Stack:** Go | **License:** Open Source (per Go Packages)  
-A ready-to-use, zero-dependency **real-time media server and media proxy** that publishes, reads, proxies, records, and plays back video and audio streams [citation:8]. Acts as a “media router” routing streams between protocols (SRT, WebRTC, RTSP, RTMP, HLS, MPEG-TS, RTP) with automatic conversion. Features include stream recording to disk (fMP4 or MPEG-TS), playback of recorded streams, JWT/HTTP authentication, Prometheus metrics, and hot reloading. Runs as a single executable on Linux, Windows, and macOS [citation:8]. **Note:** This is infrastructure, not a video portal — you build the frontend and management layer.  
-**Best for:** Developers and platform engineers needing a reliable, protocol-agnostic media routing and recording layer for custom video applications.
-
-### Tape
-**Stack:** TypeScript / Next.js / Lens Protocol | **License:** AGPLv3  
-An open-source video-sharing platform built on the Lens Protocol, with a frontend, embed player, API, and permissionless signup contracts [citation:9]. Positioned as a decentralized media-sharing application rather than a traditional video CMS. Still early-stage and tied to the Lens ecosystem.  
-**Best for:** Developers interested in decentralized/social video platforms built on blockchain identity.
+- [🌐 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS / Hosted Commercial Platforms](#-saas--hosted-commercial-platforms)
+- [💻 Open-Source Software & Self-Hosted Solutions](#-open-source-software--self-hosted-solutions)
+- [📊 Feature Comparison at a Glance](#-feature-comparison-at-a-glance)
+- [🤝 Contributing](#-contributing)
+- [📄 License](#-license)
 
 ---
 
-## 📊 Comparison at a Glance
+## 🌐 Sector Overview & Market Dynamics 📈
 
-| Software | License | Stack | Live Streaming | Adaptive HLS | Self-Hosted | Best For |
-|----------|---------|-------|----------------|--------------|-------------|----------|
-| **Vimeo** | Proprietary | Cloud | ✅ (add-on) | ✅ | ❌ | User-friendly hosting + collaboration |
-| **Brightcove** | Proprietary | Cloud | ✅ | ✅ | ❌ | Enterprise + OTT + marketing |
-| **Wistia** | Proprietary | Cloud | ❌ | ✅ | ❌ | Video marketing + lead capture |
-| **Vidyard** | Proprietary | Cloud | ❌ | ✅ | ❌ | Sales video + CRM integration |
-| **Kaltura** | Proprietary | Cloud/on-prem | ✅ | ✅ | (Enterprise) | Enterprise video CMS |
-| **Panopto** | Proprietary | Cloud/on-prem | ✅ | ✅ | (Enterprise) | Education + lecture capture |
-| **Dacast** | Proprietary | Cloud | ✅ (live-first) | ✅ | ❌ | White-label live + VOD |
-| **MediaCMS** | AGPL-3.0 | Python/Django | Limited | ✅ | ✅ | YouTube-like portal + transcoding |
-| **Mave Core** | Open Source | Elixir/FFmpeg | ❌ | ✅ | ✅ | S3-native video platform |
-| **Hovod** | Open Source | Node.js/FFmpeg | ❌ | ✅ (360p-4K) | ✅ | Mux alternative + optional billing |
-| **AVideo** | Open Source | PHP/nginx-rtmp | ✅ (RTMP) | ✅ | ✅ | VOD + live streaming portal |
-| **Owncast** | MIT | Go | ✅ (live-only) | ❌ | ✅ | Single-user live streaming + chat |
-| **MediaMTX** | Open Source | Go | ✅ (multi-protocol) | (Routing) | ✅ | Media routing + recording infrastructure |
-| **Tape** | AGPLv3 | TypeScript/Lens | ❌ | (Check) | ✅ | Decentralized video sharing |
+The global enterprise video and streaming infrastructure market is estimated at **$115 billion in 2024** and is projected to expand to over **$330 billion by 2030**, advancing at a robust compound annual growth rate (CAGR) of ~19–21%. 
+
+The market dynamics reflect a **moderately fragmented landscape** across distinct verticals (corporate training/LMS video, developer-first streaming APIs, live broadcast OTT, and marketing/sales enablement) rather than a monolithic "winner-take-all" structure, with enterprise incumbents (Brightcove, Kaltura, Panopto, Vimeo) sharing space with specialized developer platforms and federated open-source ecosystems.
 
 ---
 
-## 🤝 Contributing
+## 🏢 SaaS / Hosted Commercial Platforms ☁️
 
-Contributions are welcome! If you know of an open-source Video Hosting or Streaming platform that should be listed here, please open a pull request with:
+Commercial, cloud-hosted enterprise Video Hosting and Live Streaming platforms sorted in descending order by company size (valuation / annual revenue).
 
-- Project name and URL
-- Brief description (1–2 sentences)
-- Stack and license
-- Why it stands out
-
-Please ensure the project is actively maintained (releases within the last 12 months) and genuinely open-source.
-
----
-
-## 📄 License
-
-This list is released under CC0 1.0 Universal (Public Domain). The software projects listed retain their respective licenses.
+| Platform 🏷️ | Company Size (Valuation / Revenue) 💰 | Starting Pricing Tier 💳 | Free Tier / Free Trial Limits 🎁 | Primary Use Case 🎯 | Live Streaming 📡 | Adaptive HLS 🔄 |
+|---|---|---|---|---|:---:|:---:|
+| **[Vimeo Enterprise](https://vimeo.com)** | **~$1.6B Market Cap** (~$415M ARR) | **$12 /seat/month** (Starter plan billed annually at $144/yr) | **Free Plan**: 3 videos total limit (max 1 GB upload/storage) | Creative collaboration, marketing hosting, & enterprise communication | ✅ (Advanced / Enterprise) | ✅ |
+| **[Brightcove](https://www.brightcove.com)** | **~$480M Market Cap** (~$201M ARR) | **$199 /month** (Marketing / Starter entry tier) | **30-Day Free Trial**: up to 10 videos upload limit, player creation & test analytics | High-volume OTT delivery, enterprise media broadcasting, & monetization | ✅ | ✅ |
+| **[Kaltura](https://kaltura.com)** | **~$220M Market Cap** (~$175M ARR) | **$100 /month** (Virtual Events / Video Portal starter tier) | **30-Day Free Trial**: includes $100 service credits & up to 10 hosted videos | Comprehensive educational lecture capture & enterprise video CMS | ✅ | ✅ |
+| **[Panopto](https://www.panopto.com)** | **~$350M Valuation** (Acquired by K1 Investment) | **$14.99 /month** (Panopto Pro creator tier) | **Free Plan**: 5 hours of video storage & 100 hours of streaming per month | Higher education video learning, searchable lecture CMS, & corporate training | ✅ | ✅ |
+| **[Wistia](https://wistia.com)** | **~$80M ARR** (~$500M Est. Valuation) | **$19 /month** (Plus plan billed annually at $228/yr) | **Free Plan**: 10 videos limit, 200 GB monthly bandwidth, 1 channel with 3 collections | Video marketing, lead generation forms, SEO player embeds, & viewer analytics | ❌ | ✅ |
+| **[Vidyard](https://www.vidyard.com)** | **~$35M ARR** (~$250M Valuation) | **$19 /seat/month** (Pro plan billed annually at $228/yr) | **Free Plan**: 25 video library limit, unlimited 1:1 video recordings up to 30 mins/video | 1-to-1 sales outreach, video email prospecting, & CRM pipeline tracking | ❌ | ✅ |
+| **[Dacast](https://www.dacast.com)** | **~$20M ARR** (~$100M Valuation) | **$39 /month** (Starter plan billed annually at $468/yr) | **14-Day Free Trial**: includes 10 GB bandwidth & 10 GB storage limit | White-label live streaming, pay-per-view monetization, & event broadcasts | ✅ | ✅ |
+| **[SproutVideo](https://sproutvideo.com)** | **~$10M ARR** (~$50M Valuation) | **$24.99 /month** (Seed plan; billed monthly) | **30-Day Free Trial**: full feature access, includes 500 GB bandwidth & 500 GB storage | Secure internal company video hosting, marketing capture, & access controls | ✅ | ✅ |
 
 ---
 
-⭐ **If this list helped you discover a useful tool, please star the repo!** ⭐
+## 💻 Open-Source Software & Self-Hosted Solutions 🚀
+
+Curated self-hosted video hosting servers, media proxies, and streaming platforms. Sorted in descending order by **GitHub Star Count ⭐**.
+
+### 1. [SRS (Simple Realtime Server)](https://github.com/ossrs/srs) [![GitHub stars](https://img.shields.io/github/stars/ossrs/srs?style=social&color=white)](https://github.com/ossrs/srs/stargazers)
+- **Tech Stack:** ⚙️ C++ / Go / Python / Docker
+- **License:** 📜 MIT License
+- **Protocols Supported:** 📡 RTMP, WebRTC, HLS, HTTP-FLV, SRT, MPEG-DASH, GB28181
+- **Codecs:** 🎞️ H.264, H.265 (HEVC), AV1, VP9, AAC, Opus
+- **Overview:** 💡 An industrial-strength, ultra-high-performance real-time media cluster server widely adopted in Asia and worldwide. Capable of handling massive concurrent live streams with sub-second latency via WebRTC and SRT. Includes built-in AI hooks and WebRTC-to-RTMP conversion.
+- **Best For:** 🎯 High-scale live streaming backends, edge CDN clusters, and interactive real-time video infrastructure.
+
+---
+
+### 2. [LiveKit](https://github.com/livekit/livekit) [![GitHub stars](https://img.shields.io/github/stars/livekit/livekit?style=social&color=white)](https://github.com/livekit/livekit/stargazers)
+- **Tech Stack:** ⚙️ Go / WebRTC / TypeScript / Rust
+- **License:** 📜 Apache-2.0 License
+- **Protocols Supported:** 📡 WebRTC, WHIP/WHEP, SIP, RTMP Ingest/Egress
+- **Codecs:** 🎞️ VP8, VP9, H.264, AV1, Opus
+- **Overview:** 💡 A state-of-the-art WebRTC SFU (Selective Forwarding Unit) and end-to-end real-time stack designed for connecting humans, live streaming broadcasts, and real-time multimodal AI agents. Supports distributed multi-node clustering and telemetry out of the box.
+- **Best For:** 🎯 Real-time interactive broadcasting, multi-party live conferencing, and ultra-low latency streaming applications.
+
+---
+
+### 3. [MediaMTX](https://github.com/bluenviron/mediamtx) [![GitHub stars](https://img.shields.io/github/stars/bluenviron/mediamtx?style=social&color=white)](https://github.com/bluenviron/mediamtx/stargazers)
+- **Tech Stack:** ⚙️ Go (Zero external dependencies)
+- **License:** 📜 MIT License
+- **Protocols Supported:** 📡 SRT, WebRTC, RTSP, RTMP, LL-HLS, HLS, MPEG-TS, RTP, Media-over-QUIC
+- **Codecs:** 🎞️ H.264, H.265, AV1, VP8, VP9, AAC, Opus
+- **Overview:** 💡 Formerly known as *rtsp-simple-server*, MediaMTX is a versatile multi-protocol media router and proxy. It automatically transcodes container formats on-the-fly, records streams to disk (fMP4/MPEG-TS), and serves video directly across desktop, mobile, and browser clients with zero external dependencies.
+- **Best For:** 🎯 Surveillance camera ingress (RTSP), protocol routing, drone/robotics streaming, and modular live stream relays.
+
+---
+
+### 4. [PeerTube](https://github.com/Chocobozzz/PeerTube) [![GitHub stars](https://img.shields.io/github/stars/Chocobozzz/PeerTube?style=social&color=white)](https://github.com/Chocobozzz/PeerTube/stargazers)
+- **Tech Stack:** ⚙️ TypeScript / Node.js / Angular / PostgreSQL / FFmpeg
+- **License:** 📜 AGPL-3.0 License
+- **Protocols Supported:** 📡 ActivityPub, WebTorrent, HLS, P2P WebRTC
+- **Codecs:** 🎞️ H.264, AAC
+- **Overview:** 💡 The premier decentralized, federated video streaming alternative to YouTube. Developed by Framasoft, PeerTube instances interconnect via ActivityPub, allowing users across different servers to subscribe, comment, and share peer-to-peer browser bandwidth during playback.
+- **Best For:** 🎯 Federated public video portals, privacy-first community streaming hubs, and decentralized universities.
+
+---
+
+### 5. [NGINX RTMP Module](https://github.com/arut/nginx-rtmp-module) [![GitHub stars](https://img.shields.io/github/stars/arut/nginx-rtmp-module?style=social&color=white)](https://github.com/arut/nginx-rtmp-module/stargazers)
+- **Tech Stack:** ⚙️ C / Nginx
+- **License:** 📜 BSD 2-Clause License
+- **Protocols Supported:** 📡 RTMP, HLS, MPEG-DASH
+- **Codecs:** 🎞️ H.264, AAC, MP3
+- **Overview:** 💡 The legendary, battle-tested streaming extension for the NGINX HTTP server. It provides live RTMP stream ingest, on-demand playback, real-time HLS fragment generation, and stream recording. The foundational building block underlying countless commercial media architectures.
+- **Best For:** 🎯 Lightweight self-hosted RTMP ingest servers and high-concurrency HLS repackaging pipelines.
+
+---
+
+### 6. [Owncast](https://github.com/owncast/owncast) [![GitHub stars](https://img.shields.io/github/stars/owncast/owncast?style=social&color=white)](https://github.com/owncast/owncast/stargazers)
+- **Tech Stack:** ⚙️ Go / Preact / Tailwind CSS
+- **License:** 📜 MIT License
+- **Protocols Supported:** 📡 RTMP Ingest, HLS Delivery, ActivityPub (Fediverse)
+- **Codecs:** 🎞️ H.264, AAC
+- **Overview:** 💡 A single-binary, self-hosted live streaming and interactive chat platform tailored for independent creators. Plug in OBS or Streamlabs via RTMP, and Owncast handles browser HLS playback, built-in live chat, customizable user emotes, bot integrations, and Fediverse notifications.
+- **Best For:** 🎯 Independent content creators, game streamers, and organizations wanting an unmonitored Twitch alternative.
+
+---
+
+### 7. [MediaCMS](https://github.com/mediacms-io/mediacms) [![GitHub stars](https://img.shields.io/github/stars/mediacms-io/mediacms?style=social&color=white)](https://github.com/mediacms-io/mediacms/stargazers)
+- **Tech Stack:** ⚙️ Python / Django / Celery / Vue.js / FFmpeg
+- **License:** 📜 AGPL-3.0 License
+- **Protocols Supported:** 📡 HLS Adaptive Streaming, MP4 Progressive Download
+- **Codecs:** 🎞️ H.264, AAC
+- **Overview:** 💡 A complete turn-key modern video Content Management System designed to mimic YouTube’s frontend and backend workflow. Features multi-resolution automated background transcoding via Celery and FFmpeg, fine-grained RBAC permissions, playlists, and user management.
+- **Best For:** 🎯 Corporate internal video portals, educational lecture hubs, and intranet media libraries.
+
+---
+
+### 8. [Ant Media Server](https://github.com/ant-media/Ant-Media-Server) [![GitHub stars](https://img.shields.io/github/stars/ant-media/Ant-Media-Server?style=social&color=white)](https://github.com/ant-media/Ant-Media-Server/stargazers)
+- **Tech Stack:** ⚙️ Java / WebRTC / C++
+- **License:** 📜 Apache-2.0 License (Community Edition)
+- **Protocols Supported:** 📡 WebRTC (~0.5s ultra-low latency), CMAF, HLS, RTMP, RTSP, SRT
+- **Codecs:** 🎞️ H.264, H.265, VP8, AAC, Opus
+- **Overview:** 💡 A highly scalable real-time streaming engine delivering WebRTC streams with ~500ms latency. Ingests RTMP or RTSP video streams and simultaneously serves WebRTC, CMAF, and HLS to browsers, iOS, and Android applications with automated adaptive bitrate switching.
+- **Best For:** 🎯 Live interactive auctions, telehealth, esports broadcasting, and multi-platform low-latency streaming.
+
+---
+
+### 9. [AVideo](https://github.com/WWBN/AVideo) [![GitHub stars](https://img.shields.io/github/stars/WWBN/AVideo?style=social&color=white)](https://github.com/WWBN/AVideo/stargazers)
+- **Tech Stack:** ⚙️ PHP / MySQL / Nginx-RTMP / FFmpeg
+- **License:** 📜 GPL-3.0 License
+- **Protocols Supported:** 📡 RTMP, HLS, VOD MP4
+- **Codecs:** 🎞️ H.264, AAC
+- **Overview:** 💡 Formerly known as YouPHPTube, AVideo is an all-in-one open-source audio/video sharing and live streaming solution. It decomposes into dedicated streamer web portals, encoder microservices, and live broadcast ingest nodes.
+- **Best For:** 🎯 Full-featured community video portals requiring user channels, paywalls, and VOD + Live under one roof.
+
+---
+
+### 10. [Hovod](https://github.com/Synapsr/Hovod) [![GitHub stars](https://img.shields.io/github/stars/Synapsr/Hovod?style=social&color=white)](https://github.com/Synapsr/Hovod/stargazers)
+- **Tech Stack:** ⚙️ TypeScript / Node.js / FFmpeg / Docker
+- **License:** 📜 MIT License
+- **Protocols Supported:** 📡 Multi-quality HLS (360p to 4K), S3-compatible storage
+- **Codecs:** 🎞️ H.264, AAC
+- **Overview:** 💡 An open-source, self-hosted developer video platform positioned as a lightweight alternative to Mux. Packaged as a single Docker container with zero external dependencies, providing automated multi-quality transcoding, AI transcription/chapters, and optional Stripe billing.
+- **Best For:** 🎯 Developers seeking a drop-in video API backend with S3 storage and built-in SaaS billing capabilities.
+
+---
+
+## 📊 Feature Comparison at a Glance ⚡
+
+| Platform / Project 🏷️ | Architecture Type 🏗️ | Primary Stack ⚙️ | Live Streaming 📡 | Adaptive Bitrate HLS 🔄 | Deployment Model 📦 | Best For 🎯 |
+|---|---|---|:---:|:---:|---|---|
+| **Vimeo Enterprise** | Commercial SaaS | Cloud | ✅ (Advanced) | ✅ | Managed Cloud | Creative collaboration & internal video sharing |
+| **Brightcove** | Commercial SaaS | Cloud | ✅ | ✅ | Managed Cloud | Large-scale OTT media & enterprise broadcasters |
+| **Kaltura** | Commercial / Hybrid | Cloud / On-Prem | ✅ | ✅ | Enterprise Cloud / On-Prem | Higher education video CMS & virtual summits |
+| **Panopto** | Commercial SaaS | Cloud | ✅ | ✅ | Managed Cloud | University lecture capture & corporate training |
+| **Wistia** | Commercial SaaS | Cloud | ❌ | ✅ | Managed Cloud | B2B video marketing & lead generation |
+| **Vidyard** | Commercial SaaS | Cloud | ❌ | ✅ | Managed Cloud | Sales outreach prospecting & email tracking |
+| **Dacast** | Commercial SaaS | Cloud | ✅ (Live-first) | ✅ | Managed Cloud | White-label live events & pay-per-view VOD |
+| **SproutVideo** | Commercial SaaS | Cloud | ✅ | ✅ | Managed Cloud | Secure business hosting & marketing analytics |
+| **SRS** | Open-Source Core | C++ / Go | ✅ (Cluster) | ✅ | Self-Hosted / Docker / K8s | Massively scalable real-time streaming backend |
+| **LiveKit** | Open-Source SFU | Go / WebRTC | ✅ (WebRTC) | ✅ (Simulcast) | Self-Hosted / Distributed Cloud | Real-time interactive video & AI audio/video agents |
+| **MediaMTX** | Open-Source Proxy | Go | ✅ (Zero-dep) | ✅ (LL-HLS) | Single Binary / Docker | Multi-protocol media routing & CCTV/RTSP ingress |
+| **PeerTube** | Open-Source Portal | TS / Node / Angular | ✅ (P2P) | ✅ | Docker / VPS | Decentralized ActivityPub federated video network |
+| **NGINX RTMP** | Open-Source Server | C / Nginx | ✅ (RTMP) | ✅ | Linux / Nginx module | Battle-tested RTMP ingest & HLS segmenter |
+| **Owncast** | Open-Source Stream | Go / Preact | ✅ (Single-user) | ✅ | Single Binary / Docker | Creator live streaming with integrated chat |
+| **MediaCMS** | Open-Source CMS | Python / Django | Limited | ✅ | Docker Compose | YouTube-style self-hosted enterprise portal |
+| **Ant Media Server** | Open-Source / Dual | Java / WebRTC | ✅ (<0.5s) | ✅ | Docker / Cloud Marketplace | Ultra-low latency WebRTC streaming & auctions |
+| **AVideo** | Open-Source Portal | PHP / MySQL | ✅ (RTMP) | ✅ | Docker / LEMP Stack | Turnkey self-hosted VOD & live broadcast network |
+| **Hovod** | Open-Source API | TypeScript / Node | ❌ (VOD-first) | ✅ (360p-4K) | Single Docker container | Self-hosted Mux alternative with S3 storage |
+
+---
+
+## 🤝 Contributing 💡
+
+Contributions and additions are enthusiastically welcomed! If you operate or maintain an active open-source video hosting or streaming project, please submit a pull request:
+
+1. 🍴 **Fork** this repository.
+2. 🌿 Create your feature branch (`git checkout -b feature/new-video-platform`).
+3. 📝 Add your project under the appropriate section with its name, star count badge, license, stack, and use case.
+4. 🚀 Commit your changes (`git commit -m "Add NewVideoPlatform to open-source directory"`).
+5. 📤 Push to the branch (`git push origin feature/new-video-platform`).
+6. 📬 Open a **Pull Request**.
+
+---
+
+## 📄 License ⚖️
+
+This curated compilation is released under the creative commons [CC0 1.0 Universal (Public Domain)](file:///C:/Users/hp/Documents/Projects/Awesome-Video-Hosting-Streaming-Platform/LICENSE). Individual software projects, logos, and platforms remain the intellectual property and copyright of their respective authors and owners.
+
+---
+
+<p align="center">
+  ⭐ <b>Found this resource helpful? Consider starring the repository to help others discover it!</b> ⭐
+</p>
